@@ -1,15 +1,24 @@
+@keyframes fadein {
+    0% { opacity: 0 }
+   50% { opacity: 0.3 }
+  100% { opacity: 1 }
+}
+
 #index {
-  background-color: $brand-primary;
-  background-image: radial-gradient(lighten($brand-primary, 24%) 0, $brand-primary 75%);
+  background-image: radial-gradient(lighten($brand-primary, 20%) 0, $brand-primary 75%);
   color: #ffffff;
   height: 100%;
+
   .content {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+
     .flex-item {
+      animation-name: fadein;
+      animation-duration: 7s;
       .title {
         text-shadow: 0 0 6px #afafaf;
         font-weight: bold;
