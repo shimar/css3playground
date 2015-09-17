@@ -9,7 +9,7 @@ const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 
 gulp.task('views', () => {
-  return gulp.src('app/*.jade')
+  return gulp.src('app/**/*.jade')
     .pipe($.jade({pretty: true}))
     .pipe(gulp.dest('.tmp'))
     .pipe(reload({stream: true}));
