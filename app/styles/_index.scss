@@ -25,14 +25,45 @@
       }
 
       ul.nav {
+        margin-top: 12px;
         li {
-          min-width: 80px;
-          display: inline-block;
+          min-width:  80px;
+          display:    inline-block;
           text-align: center;
           font-size:  20px;
 
           a {
             color: #ffffff;
+            &:before {
+              content: '';
+              position: absolute;
+              right: 50%;
+              bottom: 0;
+              width: 0;
+              height: 1px;
+              border-top: solid 1px white;
+              margin: auto;
+            }
+            &:after {
+              content: '';
+              position: absolute;
+              left: 50%;
+              bottom: 0;
+              width: 0;
+              height: 1px;
+              border-top: solid 1px white;
+              margin: auto;
+            }
+
+            &:hover:before {
+              width: 50%;
+              transition: all .1s ease-out;
+            }
+            &:hover:after {
+              width: 50%;
+              transition: all .1s ease-out;
+            }
+            
             &:hover {
               background-color: transparent;
             }
