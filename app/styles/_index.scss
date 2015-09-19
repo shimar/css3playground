@@ -36,6 +36,12 @@
             &:hover {
               background-color: transparent;
             }
+            &:active {
+              background-color: transparent;
+            }
+            &:focus {
+              background-color: transparent;
+            }
           }
         }
       }
