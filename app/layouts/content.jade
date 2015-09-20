@@ -2,7 +2,8 @@ doctype html
 html.no-js
   head
     meta(charset='utf-8')
-    title CSS3 Playground
+    title
+      block title
     meta(name='description' content='')
     meta(name='viewport' content='width=device-width, initial-scale=1')
     // Place favicon.ico and apple-touch-icon.png in the root directory
@@ -29,8 +30,7 @@ html.no-js
       #sidebar-wrapper
         block sidebar
       #content-wrapper
-        .container-fluid
-          block content
+        block content
 
     // Google Analytics: change UA-XXXXX-X to be your site's ID.
     script.

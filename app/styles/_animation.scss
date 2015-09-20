@@ -1,0 +1,22 @@
+@keyframes anim-001-bg {
+   0%   { background-color: $brand-primary; }
+  /* 10%   { background-color: #1fe600; } */
+  20%   { background-color: #abb0e4; }
+  /* 30%   { background-color: #0058e6; } */
+  40%   { background-color: #abd1e4; }
+  /* 50%   { background-color: #b8e600; } */
+  60%   { background-color: #abe4ca; }
+  /* 70%   { background-color: #e69600; } */
+  80%   { background-color: #b2e4ab; }
+  /* 90%   { background-color: #00e6cb; } */
+  100%  { background-color: $brand-primary; }
+}
+
+.anim-001 {
+  position: relative;
+  width:    100%;
+  height:   100%;
+  animation-name: anim-001-bg;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
