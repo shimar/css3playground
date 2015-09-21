@@ -4,6 +4,7 @@ ul.sidebar-nav {
   position: relative;
   width:   100%;
   height:  100%;
+
   li {
     list-style: none;
     color: $sidebar-color;
@@ -22,10 +23,12 @@ ul.sidebar-nav {
     }
 
     &.sidebar-brand {
-      padding: 12px 0;
+      padding: 32px 0;
       text-indent: 0;
       text-align: center;
       line-height: inherit;
+      text-shadow: 0 0 6px #afafaf;
+      font-weight: bold;
     }
   }
 }
