@@ -11,6 +11,16 @@ ul.sidebar-nav {
       padding: 12px 0;
       text-indent: 0;
       text-align: center;
+      a {
+        color: #ffffff;
+        &:hover,
+        &:active,
+        &:focus {
+          color: #ffffff;
+          background-color: none;
+          text-decoration: none;
+        }
+      }
     }
   }
 }
