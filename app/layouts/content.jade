@@ -6,6 +6,8 @@ html.no-js
       block title
     meta(name='description' content='')
     meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(href='https://fonts.googleapis.com/css?family=Raleway',rel='stylesheet',type='text/css')
+
     // Place favicon.ico and apple-touch-icon.png in the root directory
 
     // build:css styles/vendor.css
@@ -13,11 +15,11 @@ html.no-js
     // endbower
     // endbuild
 
-    // build:css styles/main.css
+    // build:css ../styles/main.css
     link(rel='stylesheet' href='../styles/main.css')
     // endbuild
 
-    // build:js scripts/vendor/modernizr.js
+    // build:js ../scripts/vendor/modernizr.js
     script(src='../bower_components/modernizr/modernizr.js')
     // endbuild
 
@@ -41,17 +43,17 @@ html.no-js
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
 
-    // build:js scripts/vendor.js
+    // build:js ../scripts/vendor.js
     // bower:js
     script(src='../bower_components/jquery/dist/jquery.js')
     // endbower
     // endbuild
 
-    // build:js scripts/plugins.js
+    // build:js ../scripts/plugins.js
     script(src='../bower_components/bootstrap-sass/assets/javascripts/bootstrap.js')
     // endbuild
 
-    // build:js scripts/main.js
+    // build:js ../scripts/main.js
     script(src='../scripts/main.js')
     // endbuild
     
