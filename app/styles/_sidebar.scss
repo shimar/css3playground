@@ -7,20 +7,25 @@ ul.sidebar-nav {
   li {
     list-style: none;
     color: $sidebar-color;
+    text-indent: 20px;
+    line-height: 40px;
+
+    a {
+      color: #ffffff;
+      &:hover,
+      &:active,
+      &:focus {
+        color: #ffffff;
+        background-color: none;
+        text-decoration: none;
+      }
+    }
+
     &.sidebar-brand {
       padding: 12px 0;
       text-indent: 0;
       text-align: center;
-      a {
-        color: #ffffff;
-        &:hover,
-        &:active,
-        &:focus {
-          color: #ffffff;
-          background-color: none;
-          text-decoration: none;
-        }
-      }
+      line-height: inherit;
     }
   }
 }
