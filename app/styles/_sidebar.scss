@@ -8,8 +8,10 @@ ul.sidebar-nav {
   li {
     list-style: none;
     color: $sidebar-color;
-    text-indent: 20px;
+    text-indent: 0px;
     line-height: 40px;
+    padding: 0 20px;
+    @include text-overflow;
 
     a {
       color: #ffffff;
