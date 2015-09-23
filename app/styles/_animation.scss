@@ -21,3 +21,33 @@
   animation-iteration-count: infinite;
   color:    #ffffff;
 }
+
+@keyframes anim-002-rocket {
+   0% { bottom: 0;   top: 90%; }
+ 100% { bottom: 100%; top:  -10%; }
+}
+
+.anim-002 {
+  position: relative;
+  width:    100%;
+  height:   100%;
+  background-color: #000;
+  color:    #ffffff;
+  #rocket {
+    position: fixed;
+    left:     $sidebar-width;
+    right:    0;
+    bottom:   0;
+    width:    56px;
+    margin:   0 auto;
+    animation-name: anim-002-rocket;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    text-shadow: 0 0 10px orange;
+    i.fa-rocket {
+      transform: rotate(-45deg);
+      color: #ffffff;
+    }
+  }
+}
+
