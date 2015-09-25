@@ -28,3 +28,15 @@
     padding-left: $sidebar-width;
   }
 }
+
+@media (max-width: 768px) {
+  #wrapper {
+    #sidebar-wrapper {
+      display: none;
+    }
+
+    #content-wrapper {
+      padding-left: 0;
+    }
+  }
+}
