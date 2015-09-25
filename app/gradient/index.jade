@@ -1,19 +1,18 @@
 extends ../layouts/content
 
-block title
- | Striped Background with Gradient.
+block variables
+  - var title = "Striped Background with Gradient"
+  - var outerClass = "gradient-001"
 
 block sidebar
   include sidebar
 
 block content
-  .gradient-001.container-fluid
-    .row-fluid
-      .page-header.content.col-lg-12
-        h1 Striped Background with Gradient.
+  .row-fluid
+    .page-header.content.col-lg-12
+      h1 Striped Background with Gradient.
 
-    .row-fluid
-      .content.col-lg-12
-        p
-          | This page uses the <code>repeating-linear-gradient</code> of css3 features.
-
+  .row-fluid
+    .content.col-lg-12
+      p
+        | This page uses the <code>repeating-linear-gradient</code> of css3 features.

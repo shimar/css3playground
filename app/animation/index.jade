@@ -1,18 +1,18 @@
 extends ../layouts/content
 
-block title
- | Periodic background color transition | CSS3 Playground
+block variables
+  - var title = "Periodic background color transition"
+  - var outerClass = "anim-001"
 
 block sidebar
   include sidebar
   
 block content
-  .anim-001.container-fluid
-    .row-fluid
-      .page-header.content.col-lg-12
-        h1 Periodic Background Color Transition
+  .row-fluid
+    .page-header.content.col-lg-12
+      h1 Periodic Background Color Transition
 
-    .row-fluid
-      .content.col-lg-12
-        p
-          | This page uses the <code>@keyframes</code> of css3 features.
+  .row-fluid
+    .content.col-lg-12
+      p
+        | This page uses the <code>@keyframes</code> of css3 features.
