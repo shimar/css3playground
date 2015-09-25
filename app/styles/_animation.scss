@@ -43,6 +43,7 @@
     animation-name: anim-002-rocket;
     animation-duration: 10s;
     animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
     text-shadow: 0 0 10px orange;
     i.fa-rocket {
       transform: rotate(-45deg);
@@ -50,4 +51,3 @@
     }
   }
 }
-
