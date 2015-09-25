@@ -25,10 +25,10 @@
       }
 
       ul.nav {
-        margin-top: 12px;
+        margin-top: 16px;
         li {
           min-width:  80px;
-          display:    inline-block;
+          //display:    inline-block;
           text-align: center;
           font-size:  20px;
 
@@ -63,7 +63,7 @@
               width: 50%;
               transition: all .1s ease-out;
             }
-            
+
             &:hover {
               background-color: transparent;
             }
