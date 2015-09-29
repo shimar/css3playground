@@ -31,8 +31,22 @@
   position: relative;
   width:    100%;
   height:   100%;
+  overflow:  hidden;
   background-color: #000;
   color:    #ffffff;
+
+  #like-a-moon {
+    position: absolute;
+    width:  300px;
+    height: 300px;
+    top:    -150px;
+    right:  -100px;
+    background-color: #aaa;
+    border-radius: 50%;
+    background-image: -webkit-radial-gradient(center, circle cover, #ddd 0%, #555 100%);
+    box-shadow: 0 0 30px #BC975E;
+  }
+
   #rocket {
     position: fixed;
     left:     $sidebar-width;
