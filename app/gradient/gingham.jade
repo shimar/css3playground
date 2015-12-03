@@ -1,0 +1,20 @@
+extends ../layouts/content
+
+block variables
+  - var title       = "Gingham"
+  - var description = "This page uses the linear-gradient which is one of the css3 gradients features."
+  - var outerClass  = "gradient-004 striped"
+
+block sidebar
+  include sidebar
+
+block content
+  .row-fluid
+    .page-header.content.col-lg-12
+      h1 Gingham
+
+  .row-fluid
+    .content.col-lg-12
+      p
+        | This page uses the <code>linear-gradient</code> of css3 features.
+ 
