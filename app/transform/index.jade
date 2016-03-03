@@ -1,7 +1,23 @@
 extends ../layouts/content
 
+block variables
+  - var title       = "Background Rotation"
+  - var description = "This page uses the transform which is one of the css3 gradients features."
+  - var outerClass  = "transform-001"
+
+
 block menus
+  include menus
 
 block sidebar
+  include sidebar
 
 block content
+  .row-fluid
+    .page-header.content.col-lg-12
+      h1 Background Rotation
+
+  .row-fluid
+    .content.col-lg-12
+      p
+        | This page uses the <code>rotate</code> which is one of the css3 transform features.
