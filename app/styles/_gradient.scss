@@ -17,7 +17,7 @@
 .gradient-003 {
   width:  100%;
   height: 100%;
-  background: linear-gradient(to bottom right, $brand-primary, $brand-secondary 99%);
+  background: linear-gradient(to bottom right, $brand-primary, $brand-accent 99%);
   color:  #ffffff;
 }
 
@@ -32,8 +32,8 @@
   color:  #ffffff;
 }
 
-$secondary-rgba-5: rgba(215, 167, 45, .5);
-$secondary-rgba-3: rgba(215, 167, 45, .3);
+$secondary-rgba-5: rgba(66, 170, 199, .5);
+$secondary-rgba-3: rgba(66, 170, 199, .2);
 .gradient-005 {
   width:  100%;
   height: 100%;
